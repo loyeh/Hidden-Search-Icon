@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #405dff;
+}
+.searchBox{
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 15px;
+    height: 20px;
+    width: 0;
+    transition: 0.5s;
+}
+textarea:active{
+    border: none;
+}
+textarea:focus{
+    border: none;
+}
+.icon{
+    cursor: pointer;
+
+}
+textarea.show{
+    width: 100px;
+}
